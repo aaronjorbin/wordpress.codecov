@@ -29,4 +29,4 @@ after_success:
   - codecov
   - php vendor/bin/coveralls -v
 
-script: phpunit --coverage-clover=clover.xml 
+script: phpunit --coverage-clover=clover.xml
